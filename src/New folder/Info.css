@@ -1,0 +1,48 @@
+.we-work-sec {
+    background: #F1F1F1;
+}
+
+.we-work-sec {
+    background: #F1F1F1;
+}
+
+.work-exp-list li h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #0871FF;
+    margin-bottom: 1rem
+}
+.work-exp-list li p {
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 33px;
+text-align: center;
+text-transform: capitalize;
+color: #333333;
+margin-bottom: 0
+}
+.work-exp-list li {
+    background: #FFFFFF;
+    border: 2px solid #0871FF;
+    border-radius: 15px;
+    padding: 40px;
+}
+.work-exp-list li:nth-child(2) {
+    border: 2px solid #5F27CD;
+}
+.work-exp-list li:nth-child(2) h3{
+    color: #5F27CD;
+}
+.work-exp-list li:nth-child(3) h3{
+    color: #FD6B00;
+}
+.work-exp-list li:nth-child(3) {
+    border: 2px solid #FD6B00;
+}

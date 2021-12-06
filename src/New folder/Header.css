@@ -1,0 +1,72 @@
+.bg-img-wrap {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    z-index: 9
+}
+.bg-img-wrap:before {
+    content: '';
+    background: linear-gradient(
+90deg, #431C75 0.73%, rgba(107, 67, 159, 0.9) 44.27%, rgba(126, 84, 182, 0.48) 100%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.header-area {
+    position: relative;
+    z-index: 9;
+}
+img {
+    max-width: 100%;
+}
+a {
+    transition: 0.3s;
+    color: inherit;
+    text-decoration: none !important;
+}
+
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none !important;
+}
+::placeholder{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #999999;
+}
+/*header start*/
+.navbar-brand {
+    padding: 0;
+}
+.navbar-brand img {
+    max-height: 40px;
+}
+#navbarNavDropdown ul li:not(:last-child) {
+    margin-right: 22px;
+}
+
+#navbarNavDropdown ul li a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+#navbarNavDropdown ul li a:hover {
+    color: #63be54;
+}
